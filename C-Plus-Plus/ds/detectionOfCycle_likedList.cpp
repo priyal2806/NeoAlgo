@@ -71,15 +71,17 @@ int main()
 {
     node* head = NULL;
     int n;
-    cout<<"Enter the number of nodes:"<<endl;
+    cout<<"Enter the number of nodes:";
     cin>>n;
+    cout<<"Enter the nodes:";
     for(int i=0;i<n;i++){
        int x;
        cin>>x;
        insertAtTail(head,x);
     }
+
     int pos;
-    cout<<"Enter the position where you want to make a cycle:"<<endl;
+    cout<<"Enter the position where you want to make a cycle:";
     cin>>pos;
 
     //cycle is created at position pos
@@ -95,16 +97,14 @@ int main()
     return 0;
 }
 
-/*
-SAMPLE INPUT
-7
-1 2 3 4 5 6 7
-3
-SAMPLE OUTPUT
-Enter the number of nodes:
-Enter the position where you want to make a cycle:
+/*Sample I/O
+
+Enter the number of nodes:7
+Enter the nodes:1 2 3 4 5 6 7
+Enter the position where you want to make a cycle:3
 Cycle is present
 
+Here, O is Thetha
 Time Complexity  O(N)
 Space Complexity O(1)
 */
