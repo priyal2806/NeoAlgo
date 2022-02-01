@@ -104,7 +104,7 @@ int main()
 {
 
     int n;
-    cout<<"Enter total no.of nodes of the input Tree ( including NULL nodes ) : ";
+    cout<<"Enter total number of nodes of the input Tree ( including NULL nodes ) : ";
     cin>>n;
 
     vector<int>v(n);
