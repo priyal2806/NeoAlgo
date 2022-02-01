@@ -8,7 +8,7 @@ void bubblesort(int[], int);
 int main()
 {
 	int n, arr[100], num;	//Declarartion of required variables
-	cout << "Enter the number of elements of the array: ";
+	cout << "Please Enter the number of elements of the array: ";
 	cin >> n;	//Getting the number of elements of the array from the user
 	cout << endl << "Enter the elements of the array to be sorted: " << "\n";
 	for (int i = 0; i < n; i++)
